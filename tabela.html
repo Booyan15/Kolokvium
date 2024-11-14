@@ -1,86 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            margin-bottom: 20px;
-        }
-        table, th, td {
-            border: 3px solid black;
-            border-collapse: collapse;
-            text-align: center;
-            padding: 10px;
-        }
-        a {
-            color: black;
-            text-decoration: none;
-        }
-        .nested-table {
-            border: 1px solid black;
-            margin: auto;
-        }
-        .nested-table td {
-            padding: 5px;
-            border: 1px solid black;
-        }
-
-        img{
-            width: 170px;
-            height: auto;
-            object-fit: cover;
-        }
-    </style>
 </head>
-<body>
-    <h1>HTML TABLES</h1>
-    <table>
+<body style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <h1 style="margin-bottom: 20px;">HTML TABLES</h1>
+    <table style="border: 3px solid black; border-collapse: collapse; text-align: center;">
         <tr>
-            <td><a href="https://www.ugd.edu.mk/">www.ugd.edu.mk</a></td>
-            <td>
-                <table class="nested-table">
+            <td style="border: 3px solid black; padding: 10px;">
+                <a href="https://www.ugd.edu.mk/" style="color: black; text-decoration: none;">www.ugd.edu.mk</a>
+            </td>
+            <td style="border: 3px solid black; padding: 10px;">
+                <table style="border: 1px solid black; border-collapse: collapse; margin: auto;">
                     <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
+                        <td style="padding: 5px; border: 1px solid black;">1</td>
+                        <td style="padding: 5px; border: 1px solid black;">2</td>
+                        <td style="padding: 5px; border: 1px solid black;">3</td>
+                        <td style="padding: 5px; border: 1px solid black;">4</td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>8</td>
+                        <td style="padding: 5px; border: 1px solid black;">5</td>
+                        <td style="padding: 5px; border: 1px solid black;">6</td>
+                        <td style="padding: 5px; border: 1px solid black;">7</td>
+                        <td style="padding: 5px; border: 1px solid black;">8</td>
                     </tr>
                     <tr>
-                        <td>9</td>
-                        <td>10</td>
-                        <td>11</td>
-                        <td>12</td>
+                        <td style="padding: 5px; border: 1px solid black;">9</td>
+                        <td style="padding: 5px; border: 1px solid black;">10</td>
+                        <td style="padding: 5px; border: 1px solid black;">11</td>
+                        <td style="padding: 5px; border: 1px solid black;">12</td>
                     </tr>
                     <tr>
-                        <td>13</td>
-                        <td>14</td>
-                        <td>15</td>
-                        <td>16</td>
+                        <td style="padding: 5px; border: 1px solid black;">13</td>
+                        <td style="padding: 5px; border: 1px solid black;">14</td>
+                        <td style="padding: 5px; border: 1px solid black;">15</td>
+                        <td style="padding: 5px; border: 1px solid black;">16</td>
                     </tr>
                 </table>
             </td>
-            <td><img src="https://life-decor.com/cdn/shop/products/zidne-slike-moderne_0f0a26d2-0adb-4b8f-b67b-3908d448af3b_1500x900.jpg?v=1623407652" alt=""></td>
+            <td style="border: 3px solid black; padding: 10px;">
+                <img src="https://life-decor.com/cdn/shop/products/zidne-slike-moderne_0f0a26d2-0adb-4b8f-b67b-3908d448af3b_1500x900.jpg?v=1623407652" alt="" style="width: 170px; height: auto; object-fit: cover;">
+            </td>
         </tr>
         <tr>
-            <td>
-                <!-- List with colors and numbered bullets in cell 4 -->
+            <td style="border: 3px solid black; padding: 10px;">
                 <ol>
                     <li style="color: red;">RED</li>
                     <li style="color: green;">GREEN</li>
@@ -92,8 +54,12 @@
                     <li>3</li>
                 </ul>
             </td>
-            <td style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Table example</td>
-            <td style="background-color: lightblue;"></td>
+            <td style="border: 3px solid black; padding: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">
+                Table example
+            </td>
+            <td style="border: 3px solid black; padding: 10px; background-color: lightblue;">
+                <!-- Empty cell -->
+            </td>
         </tr>
     </table>
 </body>
